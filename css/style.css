@@ -14,6 +14,7 @@
 
 }
 .page-header {
+	position: sticky; top: 0;
 	height: 70px;
 	box-shadow: 0px 3px 6px #00000029;
 	display: flex;
@@ -33,6 +34,7 @@
 	letter-spacing: 3.28px;
 	color: #A5A5A5;
 	text-transform: uppercase;
+	border-bottom:transparent;
 }
 .header-nav-list-element:hover {
 	color:black;
@@ -79,4 +81,129 @@
 .open-section-background {
 	height: 594px;
 
+
+}
+
+.statistics-header {
+	text-align: center;
+}
+
+.statistics__container {
+	width: 600px;
+	margin: 100px auto 120px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.statistics-header {
+	text-align: center;
+	font: normal normal normal 36px/42px Raleway;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.article {
+	max-width: 160px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+
+}
+.article-header {
+	text-align: center;
+	font: normal normal 800 20px/24px Raleway;
+	letter-spacing: 5.96px;
+	color: #000000;
+	opacity: 1;
+	padding: 20px;
+}
+
+.article-text {
+	text-align: center;
+	font: normal normal normal 17px/20px Raleway;
+	letter-spacing: 0px;
+	color: #A5A5A5;
+	opacity: 1;
+
+}
+.article-img {
+	position: absolute;
+
+}
+
+.circle {
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	position: relative;
+
+}
+
+.article:first-child .circle {
+	background-color: #FB3B64;
+
+}
+
+.article:nth-child(2) .circle {
+	background-color: #08A6E4;
+}
+
+.article:last-child .circle {
+	background-color: #55DFB4;
+}
+
+.benefits {
+	padding: 100px 0;
+	background-color: #F7F7F7;
+}
+
+.benefits__container {
+	padding: 0 100px;
+}
+.benefits__title {
+	text-align: left;
+	font: normal normal normal 36px/42px Raleway;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+.benefits__text {
+	text-align: left;
+	font: normal normal normal 16px/22px Open Sans;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+.benefits__article {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	margin-bottom: 37px;
+	border-radius: 5px;
+	border: 1px solid #E8E9ED;
+	background-color: white;
+}
+
+.benefits__text {
+	width: 415px;
+	margin: 91px 36px;
+	padding-bottom: 30px;
+	border-bottom: solid red;
+}
+
+.benefits__image {
+	position: relative;
+}
+.benefits__image img {
+	position: relative;
+	z-index: 2;
+}
+.benefits__article--notebook .benefits__image {
+	margin-right: 117px;
+	margin-bottom: 38px;
 }
