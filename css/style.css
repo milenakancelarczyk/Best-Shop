@@ -44,3 +44,39 @@
 	text-decoration: none;
 	font: normal normal 300 32px/37px Raleway;
 }
+
+.open-section {
+	margin-top:200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+
+}
+.open-section-header {
+	text-align: center;
+	font: normal normal normal 49px/57px Raleway;
+}
+.open-section-text {
+	text-align: center;
+	font: normal normal normal 16px/22px Open Sans;
+	padding: 25px;
+}
+.cta-button {
+	text-align: center;
+	font: normal normal bold 16px/22px Open Sans;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	text-decoration: none;
+	background: #08A6E4 0% 0% no-repeat padding-box;
+	box-shadow: 5px 10px 14px #07ACE629;
+	border-radius: 40px;
+	opacity: 1;
+	padding: 22px 157px;
+}
+
+.open-section-background {
+	height: 594px;
+
+}
