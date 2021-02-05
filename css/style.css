@@ -289,13 +289,11 @@
 
 
 
-
-
 .pricing-boxes {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin-top: 50px;
+
 
 }
 
@@ -305,7 +303,7 @@
 	letter-spacing: 0px;
 	color: #000000;
 	opacity: 1;
-	margin:50px;
+
 }
 .pricing-box {
 	height: ;
@@ -317,46 +315,41 @@
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid #FB3B64;
-	padding:50px;
-	margin:50px;
 
 
 }
 
 .professional {
-	width: 370px;
+	width: 410px;
 	border-radius: 18px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid #07ACE6;
-	padding:50px;
-	margin:50px;
-	box-shadow: 5px 1px 27px
+	margin:60px;
+	box-shadow: 5px 1px 27px #07ACE629;
 
 
 }
 
 .premium {
 	width: 370px;
-
 	border-radius: 18px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	border: 1px solid #55DFB4;
-	padding:50px;
-	margin:50px;
+
 }
 .pricing-header {
 
 	text-align: left;
-	font: normal normal bold 20px/1px Raleway;
-
+	font-family: "Raleway";
 	color: #13253B;
+	font-weight: bold;
 	opacity: 1;
 	padding: 20px;
-	margin-top:25px;
+
 }
 .price {
 	text-align: left;
@@ -365,12 +358,14 @@
 	color: #FB3B64;
 	opacity: 1;
 	padding:20px;
-	margin-top: 15px;
+
 }
 
 .limit {
-	margin-top: 15px;
+
 	padding:20px;
+	font-family: Raleway;
+	font-weight: normal;
 }
 
 .pricing-list {
@@ -384,9 +379,10 @@
 	font-family: "Open Sans";
 	color:#000000;
 	font-size: 14px;
+	font-weight: bold;
 }
 .pricing-btn {
-	margin-top:20px;
+
 	padding: 16px 65px;
 	position: relative;
 	text-decoration: none;
@@ -395,11 +391,10 @@
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	opacity: 1;
-
 	box-shadow: 5px 10px 14px #07ACE629;
 	border-radius: 23px;
 	position: relative;
-	bottom: -77px;
+	bottom: -33px;
 
 }
 
@@ -438,12 +433,16 @@
 }
 
 .tick::before {
-	content: "";
+	content: "\2713";
 	width: 11px;
 	height: 11px;
 	display: inline-block;
 	margin-right: 10px;
-	background-image: url("../images/Checkmark.png");
+	color:#55DFB4;
+	/**border: 1px solid #55DFB4;
+	border-radius: 2px;
+	opacity: 1; **/
+
 
 }
 
@@ -466,7 +465,7 @@
 }
 
 .column {
-	width: 50%;
+	width: 440px;
 }
 
 .contact-header {
@@ -539,6 +538,32 @@ input {
 	margin-bottom: 12px;
 	cursor: pointer;
 
+}
+
+.labelcheckbox input {
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+	height: 0;
+	width: 0;
+}
+
+.labelcheckbox .checkbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 25px;
+	width: 25px;
+	background-color: white;
+	border: 1px solid gray;
+	border-radius: 4px;
+}
+
+.labelcheckbox input:checked ~ .checkbox {
+	background-image: url(../images/Checkmark.png);
+	background-position: center;
+	background-size: 50%;
+	background-repeat: no-repeat;
 }
 .contact-btn {
 	text-align: left;
