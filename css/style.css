@@ -314,7 +314,7 @@
 
 .pricing-box {
 	width: 370px;
-	/*height: 461px;*/
+	height: 461px;
 	border-radius: 18px;
 	display: flex;
 	flex-direction: column;
@@ -351,7 +351,6 @@
 
 .pricing-list {
 	text-align: center;
-	font: normal normal normal 14px/41px Open Sans;
 	letter-spacing: 0px;
 	color: #000000;
 	opacity: 1;
@@ -359,8 +358,11 @@
 .pricing-list-item {
 	margin-bottom: 20px;
 	padding:5px;
+	font-size: 14px;
 }
 .pricing-btn {
+	padding: 16px 65px;
+	position: relative;
 	text-decoration: none;
 	text-align: left;
 	font: normal normal bold 13px/41px Open Sans;
@@ -370,10 +372,173 @@
 	background: #07ACE6 0% 0% no-repeat padding-box;
 	box-shadow: 5px 10px 14px #07ACE629;
 	border-radius: 23px;
-	opacity: 1;
+
 }
 .details {
 	margin-top: 34px;
 	margin-bottom: 60px;
 	text-align: center;
+}
+
+
+.basic .price {
+	color: #fb3b64;
+	border-color: #FB3B64;
+	margin-bottom: 30px;
+}
+
+.professional .price {
+	color:#07ACE6;
+}
+
+.professional {
+	width: 400px;
+}
+.premium .price {
+	color: #55DFB4;
+}
+
+/** ---------------------------------------------------- **/
+
+
+.contact {
+	padding: 80px 100px 100px;
+	display: flex;
+	justify-content: center;
+	margin-top:171px;
+}
+
+.column {
+	width: 50%;
+}
+
+.contact-header {
+	text-align: left;
+	font: normal normal normal 49px/57px Raleway;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+}
+
+.instruction {
+	text-align: left;
+	font: normal normal normal 16px/22px Open Sans;
+	letter-spacing: 0px;
+	color: #000000;
+	opacity: 1;
+	margin-top:22px;
+	margin-bottom: 42px;
+}
+
+.contact-details {
+	display: flex;
+	align-items: center;
+
+}
+
+.contact-item {
+	text-decoration: none;
+	text-align: left;
+	font: normal normal 600 16px/22px Open Sans;
+	letter-spacing: 0px;
+	color: #A5A5A5;
+	opacity: 1;
+	margin-right:10px;
+}
+.contact-item img {
+	margin-right: 10px;
+}
+
+.formule {
+	display: flex;
+	flex-direction: column;
+}
+.form {
+	display: flex;
+	flex-direction: column;
+	margin-bottom:40px;
+}
+.label {
+	text-align: left;
+	font: normal normal bold 11px/15px Open Sans;
+	letter-spacing: 3.28px;
+	color: #08A6E4;
+	opacity: 1;
+	text-transform: uppercase;
+}
+
+input {
+	border:none;
+	border-bottom: 1px solid #95989A;
+}
+.form2 {
+	margin-top: 30px;
+}
+
+.labelcheckbox {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+
+}
+.contact-btn {
+	text-align: left;
+	font: normal normal bold 13px/18px Open Sans;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+	padding: 20px 97px;
+	align-self: flex-end;
+	margin-top: 20px;
+	background: #08A6E4 0% 0% no-repeat padding-box;
+	box-shadow: 5px 10px 14px #07ACE629;
+	border-radius: 35px;
+	opacity: 1;
+}
+
+.formtext {
+	text-align: left;
+	font: normal normal normal 12px/17px Open Sans;
+	letter-spacing: 0px;
+	color: #707070;
+	opacity: 1;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+}
+.footer-header {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.footer-sites img {
+	margin-left:20px;
+
+}
+
+.logo {
+	margin-bottom: 20px;
+	text-align: left;
+	font: normal normal 300 26px/30px Raleway;
+	letter-spacing: 0px;
+	color: #08A6E4;
+	opacity: 1;
+	text-decoration: none;
+}
+.footer-text {
+	text-align: left;
+	font: normal normal normal 11px/15px Open Sans;
+	letter-spacing: 0px;
+	color: #A5A5A5;
+	opacity: 1;
+}
+
+.footer {
+	box-shadow: 0 -5px 40px #00000029;
+	padding: 20px 0;
 }

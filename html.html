@@ -5,10 +5,10 @@
 	<title>Best Shop</title>
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+	<link rel ="preconnect" href="https://fonts.gstatic.com">
+	<link href ="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link rel = "preconnect" href="https://fonts.gstatic.com">
+	<link href = "https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 	<link rel = "stylesheet" href ="./css/style.css">
 	<link rel = "stylesheet" href ="./css/reset.css">
 
@@ -125,7 +125,7 @@
 	<h2 class = "pricing-header-main">Pricing</h2>
 	<div class ="pricing-boxes">
 
-		<div class ="pricing-box">
+		<div class ="pricing-box basic">
 			<div class = "details">
 		<div class = "pricing-header">Basic</div>
 				<div class = "price">$0</div>
@@ -142,7 +142,7 @@
 		<a href="#" class = "pricing-btn">Begin</a>
 		</div>
 
-	<div class ="pricing-box">
+	<div class ="pricing-box professional">
 		<div class ="details">
 		<div class = "pricing-header">Professional</div>
 		<div class = "price">$25</div>
@@ -157,7 +157,7 @@
 		<a href="#" class = "pricing-btn">Begin</a>
 	</div>
 
-	<div class ="pricing-box">
+	<div class ="pricing-box premium">
 		<div class ="details">
 		<div class = "pricing-header">Premium</div>
 		<div class = "price">$60</div>
@@ -172,5 +172,61 @@
 		<a href="#" class = "pricing-btn">Begin</a>
 	</div></div>
 </section>
+
+
+<section class ="container contact">
+	<div class ="column">
+		<h2 class = "contact-header">Any questions?</h2>
+		<p class = "instruction">Leave your email address or contact us!</p>
+		<div class ="contact-details">
+			<a class = "contact-item" href="mailto:info@bestshop.xyz">
+				<img src = "images/Mail%20Icon.png">info@bestshop.xyz</a>
+			<a class = "contact-item" href="tel:123456789">
+			<img src = "images/Phone%20Icon.png">123 456 789</a>
+		</div>
+	</div>
+
+	<div class="column">
+		<form class="formule">
+			<div class="form">
+				<label class = "label" for="name">Name</label>
+				<input type="text" class="form__input name" id="name"/>
+			</div>
+			<div class="form">
+				<label class="label" for="email">E-mail</label>
+				<input type="email" class="form__input email" id="email" />
+			</div>
+			<div class="form2">
+				<label class="labelcheckbox">
+					<input type="checkbox"/>
+					<span class="checkbox"></span>
+					<p class="formtext">
+						I hereby give consent for my personal data included in my
+						application to be processed for the purposes of the recruitment
+						process under the European Parliament’s and Council of the
+						European Union Regulation on the Protection of Natural Persons as
+						of 27 April 2016, with regard to the processing of personal data
+						and on the free movement of such data, and repealing Directive
+						95/46/EC (Data Protection Directive)
+					</p>
+				</label>
+			</div>
+			<button type="submit" class="contact-btn">Send</button>
+		</form>
+	</div>
+</section>
+
+<footer class="footer">
+	<div class="footer-container container">
+		<div class="footer-header">
+			<a href="#" class="logo">BestShop</a>
+			<span class="footer-text">© 2019 BestShop LTD, All Rights Reserved</span>
+		</div>
+		<div class="footer-sites">
+			<a href="#"><img src="images/Twitter.png"/></a>
+			<a href="#"><img src="images/Facebook.png"/></a>
+		</div>
+	</div>
+</footer>
 </body>
 </html>
