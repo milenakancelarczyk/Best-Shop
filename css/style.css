@@ -288,11 +288,7 @@
 }
 
 
-.pricing-boxes {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
+
 
 
 .pricing-boxes {
@@ -311,18 +307,46 @@
 	opacity: 1;
 	margin:50px;
 }
-
 .pricing-box {
+	height: ;
+}
+.basic {
 	width: 370px;
-	height: 461px;
 	border-radius: 18px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	border: 1px solid black;
+	border: 1px solid #FB3B64;
 	padding:50px;
 	margin:50px;
 
+
+}
+
+.professional {
+	width: 370px;
+	border-radius: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #07ACE6;
+	padding:50px;
+	margin:50px;
+	box-shadow: 5px 1px 27px
+
+
+}
+
+.premium {
+	width: 370px;
+
+	border-radius: 18px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid #55DFB4;
+	padding:50px;
+	margin:50px;
 }
 .pricing-header {
 
@@ -357,10 +381,12 @@
 }
 .pricing-list-item {
 	margin-bottom: 20px;
-	padding:5px;
+	font-family: "Open Sans";
+	color:#000000;
 	font-size: 14px;
 }
 .pricing-btn {
+	margin-top:20px;
 	padding: 16px 65px;
 	position: relative;
 	text-decoration: none;
@@ -369,15 +395,28 @@
 	letter-spacing: 0px;
 	color: #FFFFFF;
 	opacity: 1;
-	background: #07ACE6 0% 0% no-repeat padding-box;
+
 	box-shadow: 5px 10px 14px #07ACE629;
 	border-radius: 23px;
+	position: relative;
+	bottom: -77px;
 
+}
+
+.basic-btn {
+	background-color: #fb3b64;
+}
+.professional-btn {
+	background-color: #07ACE6;
+}
+.premium-btn {
+	background-color: #55DFB4;
 }
 .details {
 	margin-top: 34px;
 	margin-bottom: 60px;
 	text-align: center;
+
 }
 
 
@@ -398,6 +437,24 @@
 	color: #55DFB4;
 }
 
+.tick::before {
+	content: "";
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 10px;
+	background-image: url("../images/Checkmark.png");
+
+}
+
+.notick::before {
+	content: "x";
+	width: 11px;
+	height: 11px;
+	display: inline-block;
+	margin-right: 10px;
+	color: #EB476E;
+}
 /** ---------------------------------------------------- **/
 
 
@@ -517,6 +574,7 @@ input {
 }
 
 .footer-sites img {
+	margin-top:24px;
 	margin-left:20px;
 
 }
